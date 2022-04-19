@@ -33,9 +33,9 @@ public class Main5 {
       int num = s.nextInt();
       int lastWei = 0;
 //      int tempNum = 1;
-      for (int i = 1; i <= n; i++) {
+      for (int i = 0; i <= n; i++) {
         if (map.get(i)<num) {
-          lastWei++;
+          lastWei=i;
         }else {
           break;
         }
